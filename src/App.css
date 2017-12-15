@@ -1,28 +1,154 @@
-.App {
+html {
+  background: url('/assets/images/background-image/live-concert-388160_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #B5B5B5;
+  background-blend-mode: screen;
+  font-family: 'Syncopate', sans-serif;
+}
+
+header {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header h1{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3em;
+  padding: 1em auto 1em auto;
+  font-weight:bold;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
+header a{
+  padding: 0.5em 2em 0.5em 2em;
+  font-family: 'Syncopate', sans-serif;
   font-size: 1.5em;
+  margin: 3px 12px 3px 12px;
+  text-decoration: none;
+  color: black;
+  background-color: #ffe05e;
+  border-radius: 10px 10px 10px 10px;
 }
 
-.App-intro {
-  font-size: large;
+header a:hover{
+  color: #ff610a;
+  border: 2px solid #ff610a;
+  border-radius: 10px 10px 10px 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+.hero-title{
+  font-size: 2em;
+  padding: 2em 0 0 3em;
+  font-weight: 800;
+}
+
+.line {
+  border-left: 3px solid black;
+  height: 190px;
+  float: left;
+  margin-left: 8em;
+}
+
+.selling-points {
+  font-size: 0.75em;
+  margin: 0 20em 0 15em;
+}
+
+.Library {
+  margin: 5em 5em 5em 5em;
+  color: black;
+  text-align: center;
+}
+
+.Library img{
+  width: 30%;
+  height: 30%;
+  border: 3px solid white;
+}
+
+.Library div {
+  color: black;
+  margin: 1em 2em 1em 2em;
+
+}
+
+.Library a{
+  text-decoration: none;
+}
+
+.album{
+  margin: 5em auto 8em auto;
+  text-align: center;
+
+}
+
+.album img {
+  height: 20%;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 40px 40px 40px 40px;
+  margin-bottom: 2em;
+}
+
+
+.album-details {
+  margin: 1em auto;
+  max-width: 300px;
+
+}
+
+#song-list {
+  margin: 1em auto;
+  max-width: 400px;
+}
+
+.song-actions button:hover .song-number {
+  display: none;
+}
+
+.song-actions button .ion-play {
+  display: none;
+}
+
+.song-actions button:hover .ion-play{
+  display: block;
+}
+
+
+.hidden-number {
+  display: none;
+}
+
+.player-bar {
+  background: hsla(0, 0%, 0%, 0.1);
+  height: 160px;
+  margin: auto 10em 3em 10em;
+  text-align:center;
+  max-width: center;
+}
+
+#buttons {
+  padding-top: 1em;
+  text-align:center;
+}
+
+#time-control {
+  margin: 2em 0 2em 0;
+}
+
+#time-control div{
+  display: inline;
+  margin: 0 2em 0 2em;
+}
+
+#time-control input{
+  text-align: center;
+}
+
+#volume-control{
+  padding-bottom: 1em;
+}
+
+#volume-control div{
+  display: inline;
+  margin: 0 2em 0 2em;
 }
